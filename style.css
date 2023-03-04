@@ -47,6 +47,7 @@ footer {
     font-weight: bold;
     text-align: center;
 }
+
 .big {
     font-weight: bold;
     text-align: center;
@@ -78,7 +79,18 @@ footer {
 	transform: translateY(10px);
   transition: 0.4s;
 }
+
+a {
+  color: #3985ff;
+  text-decoration: none;
+  transition: 0.4s;
 }
+
+a:hover:not(.button) {
+  color: #3961ff;
+  transition: 0.4s;
+}
+
 .button img {
   height: 0.7em;
 }
